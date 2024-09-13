@@ -1,0 +1,121 @@
+.hero-container-Pharmacy {
+    background-image: url('../Images/Pharmacy\ hero.webp');
+    background-size: cover;
+    height: 700px;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    
+}
+
+.pharmacy-services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#PS-box {
+    background-color: lightblue;
+    margin: 30px;
+    border-radius: 20px;
+    text-align: center;
+    height: 200px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.hero-container-Pharmacy .hero-para{
+    width: 40%;
+    text-align: center;
+    margin-left: 9%;
+
+}
+.hero-para {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#PS-para {
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 6%;
+}
+
+.Purchase-button{
+    border: none;
+    text-align: center;
+    margin-bottom: 200px;
+
+}
+
+.button {
+    margin-top: 50px;
+    height: 50px;
+    width: 50%;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(131, 131, 252);
+    font-size: 20px;
+}
+
+.button:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 700px) {
+    .hero-container-Pharmacy .hero-para {
+        width: 90%;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 200px;
+        margin-bottom: auto;
+    }
+
+    .pharmacy-services {
+        flex-direction: column;
+        align-items: stretch;
+        margin-left: 60px;
+        margin-right: 60px;
+
+    }
+
+    #PS-box {
+        width: 100%;
+        height: auto;
+        margin: 0.5rem 0;
+
+
+    }
+
+    #PS-para {
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .button {
+        width: 80%;
+        font-size: 1rem;
+    }
+    .hero-container-Pharmacy{
+        background-image: url('../Images/Pharmacy\ hero\ mobile.jpg');
+        height: 500px;
+        background-attachment: fixed;
+    }
+
+}
